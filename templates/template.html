@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="/static/style.css" rel="stylesheet">
+    <title>IMDB Sentiment Analysis</title>
+
+</head>
+<body>
+    <div class="container">
+        <form action="{{ url_for('home')}}" method="POST" enctype="multipart/form-data">
+            <!-- <img class="img" src="E:\Machine Learning Projects\IMDB-sentiment-analysis\img\sentiment.png" alt="sentiment logo" width=100 height=100> -->
+            <h3>IMDB Movies Review Sentiment Analysis</h3>
+            <label class="input-label" for="review">Enter your review</label>
+            <textarea class="input-box" id="review" name="review" cols="75" rows="5"></textarea>
+            <button type="submit" class="btn" value="Submit">Submit</button>
+            <p><strong>{{result}}</strong></p>
+        </form>
+    </div>
+
+</body>
+</html>
