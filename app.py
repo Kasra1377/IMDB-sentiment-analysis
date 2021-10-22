@@ -20,7 +20,7 @@ MAX_SEQUENCE_LENGTH = 1000
 MAX_NUM_WORDS = 20000 
 EMBEDDING_DIM = 100
 
-data = pd.read_csv("data/cleaned_data.csv")
+data = pd.read_csv("cleaned_data.csv")
 data = data.drop("Unnamed: 0" , axis=1)
 
 X = data.drop("sentiment", axis = 1)
