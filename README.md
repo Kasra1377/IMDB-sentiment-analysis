@@ -4,9 +4,9 @@
 ---
 In this project, we are going to implement an End-to-End and basic Natural Language Processing project which is sentiment analysis on IMDB movie reviews. In this project our purpose is to analyse and predict the reviewer's feeling about a movie which is either positive or negative. The dataset which is used in this project is `IMDB Dataset of 50K Movie Reviews` which you can download it from this [link](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews). The dataset is not completely clean and in order to clean this dataset various text preprocessing steps were used such as `Stemming`, `Stop Words Removal`, `Regular Expressions`, etc. The cleaned dataset is available in this repository as `cleaned_data.csv`.
 
-In order to represent features, two methods were used which are `TF-IDF` and `Word Embedding`. Word Embedding has less ccomputational complexity due to less sparsity. So this method is used in production.
+In order to represent features, two methods were used which are `TF-IDF` and `Word Embedding`. Word Embedding has less computational complexity due to less sparsity. So this method is used in production.
 
-Two models were used, Naive Bayes classifier which is based on bayesian theorem and predicts the label based on features/words related to that specific feature. The other model is 1D CNN. Both models yield the same accuracy and result(`~%85`). Models are available in this repo and can be accessed by `models` folder.
+Two models were used, Naive Bayes classifier which is based on bayesian theorem and predicts the label based on features/words related to that specific label. The other model is 1D CNN. Both models yield the same accuracy and result(`~%85`). Models are available in this repo and can be accessed by `models` folder.
 
 ### 🖥 Installation
 ---
