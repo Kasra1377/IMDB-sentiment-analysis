@@ -19,6 +19,21 @@ or
 git clone https://github.com/Kasra1377/document-invoice.git
 ```
 
+To run the web app on your computer, first open `app.py` python file by your own IDE. After that open your Git Bash and type the following commands respectively:
+
+```
+export FLASK_APP=app.py
+```
+
+```
+export FLASK_ENV=development
+```
+
+```
+FLASK_DEBUG=1 flask run
+```
+
+Now the web app is opened locally in your browser.
 
 ### 📉Project Results
 ---
