@@ -39,7 +39,7 @@ Now the web app is opened locally in your browser.
 ---
 The model has been created and put into web application and you can see the performance and the output of the model down below:
 <p align="center">
-  <img width="900" height="500" src="demo/SQL-database.PNG">
+  <img width="900" height="500" src="demo/sentiment-analysis-demo.gif">
 </p>
  
 ### 🛠Technologies Used
