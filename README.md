@@ -16,7 +16,7 @@ git@github.com:Kasra1377/IMDB-sentiment-analysis.git
 ```
 or
 ```
-git clone https://github.com/Kasra1377/document-invoice.git
+https://github.com/Kasra1377/IMDB-sentiment-analysis.git
 ```
 
 To run the web app on your computer, first open `app.py` python file by your own IDE. After that open your Git Bash and type the following commands respectively:
